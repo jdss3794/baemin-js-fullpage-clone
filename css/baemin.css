@@ -1,0 +1,247 @@
+.section {
+  color: #fff;
+  padding: 0 400px;
+}
+
+.wrap {
+  background-color: #2ac1bc;
+  z-index: 0;
+}
+
+.s0 {
+  background-color: #2ac1bc;
+  background-image: url('/img/main_05@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+.s1 {
+  background-image: url('/img/img-road@2x') 500px 500px;
+}
+
+.s7 {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: relative;
+}
+
+#header {
+  width: 810px;
+  position: fixed;
+  top: 50px;
+  background: transparent;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 400px;
+}
+
+#menuBar {
+  position: fixed;
+
+  right: 190px;
+  top: 58%;
+  transform: translateY(-50%);
+}
+
+#menuBar .gnb li {
+  height: 35px;
+}
+
+#menuBar .gnb li a {
+  display: block;
+  font-size: 40px;
+  opacity: 1;
+  color: #ccc;
+  /* width: ???; */
+}
+
+#menuBar .gnb li.active a {
+  opacity: 1;
+  background-image: url('/img/dotSelect@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+#logo img {
+  width: 142px;
+}
+
+#bottom-logo {
+  width: 1024px;
+  position: fixed;
+  bottom: 0;
+  left: 48%;
+  height: 100px;
+  background: transparent;
+  z-index: 1000;
+}
+
+#bottom-logo img {
+  width: 68px;
+}
+
+.icon-box {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-box li {
+  float: left;
+  padding-right: 20px;
+}
+
+.app-download img {
+  width: 140px;
+}
+
+.gnb img {
+  width: 24px;
+  display: block;
+}
+
+.inner-img {
+  position: relative;
+}
+
+.inner-img img {
+  position: absolute;
+  width: 500px;
+  right: 0;
+
+  left: 500px;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.inner-img2 {
+  width: 500;
+  height: 500;
+}
+
+.inner-img2 img {
+  position: absolute;
+  width: 500px;
+  right: 0;
+
+  left: 900px;
+}
+
+.inner-img img.up {
+  left: 0;
+  opacity: 1;
+  transition: left 0.5s 0.35s, opacity 0.35s 0.15s;
+}
+
+.qrcode img {
+  position: absolute;
+  width: 184px;
+  right: 20%;
+  bottom: 20%;
+}
+
+.text-logo {
+  margin-top: 140px;
+}
+
+.text-logo img {
+  width: 462px;
+}
+
+.app-store img {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+.google-play img {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+.download-button {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.rider img {
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 173px;
+}
+
+.footer-txt-img {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-txt-img img {
+  width: 120px;
+  height: auto;
+}
+
+.black-icon img {
+  width: 40px;
+}
+
+.black-icon {
+  float: left;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.black-logo img {
+  width: 193px;
+}
+
+.black-download {
+  padding-top: 20px;
+}
+
+.black-download img {
+  width: 145px;
+}
+
+.footer-text {
+  color: black;
+  bottom: 0;
+  width: 1000px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.text1 {
+  padding-bottom: 20px;
+}
+
+.text2 {
+  padding-bottom: 20px;
+}
+
+.qr-txt {
+  position: absolute;
+  right: 22%;
+  bottom: 38%;
+}
+
+.footer-left {
+  margin-top: 200px;
+}
+
+.footer-right {
+  margin-top: 200px;
+}
